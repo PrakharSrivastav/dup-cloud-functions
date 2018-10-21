@@ -4,7 +4,7 @@ import main
 
 
 class TestGCFPyGCSSample(object):
-    def test_hello_gcs_generic(self, capsys):
+    def test_file_upload_trigger(self, capsys):
         event = {
             'bucket': 'some-bucket',
             'name': 'some-filename',
@@ -16,7 +16,7 @@ class TestGCFPyGCSSample(object):
         context.event_id = 'some-id'
         context.event_type = 'gcs-event'
 
-        main.hello_gcs_generic(event, context)
+        main.file_upload_trigger(event, context)
 
         out, _ = capsys.readouterr()
 
