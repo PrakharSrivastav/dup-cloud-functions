@@ -1,6 +1,6 @@
 import mock
 
-import main
+from fileUploadTrigger import main
 
 
 class TestGCFPyGCSSample(object):

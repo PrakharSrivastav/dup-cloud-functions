@@ -1,0 +1,7 @@
+{
+  "SOURCE_TOPIC" : "fileUplodTopic",
+  "SOURCE_TOPIC_SUBSCRIBER" : "processFileUpload",
+  "PROJECT_ID" : "digital-utility-playground",
+  "TARGET_TOPIC" : "parsedContentTopic",
+  "TARGET_TOPIC_PUBLISHER":"parsedContentPublisher"
+}
